@@ -1,0 +1,2 @@
+module TbPlantillasHelper
+end

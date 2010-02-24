@@ -1,0 +1,47 @@
+  <%= will_paginate @tbplantillas %>
+  <%= page_entries_info @tbplantillas, :entry_name => 'Plantillas' %>
+
+<!-- Table markup-->
+
+<table id="box-table-a">
+
+	<!-- Table header -->
+
+		<thead>
+			<tr>
+				<th scope="col" id="">Id</th>
+                <th scope="col" id="">Codigo</th>
+                <th colspan="2" scope="col" id="">Descripcion</th>
+			</tr>
+		</thead>
+
+	<!-- Table footer -->
+
+		<tfoot>
+
+	        <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+	            <td>Total: <%= TbPlantilla.count %></td>
+	        </tr>
+
+		</tfoot>
+
+	<!-- Table body -->
+
+		<tbody>
+             <% for plantilla in @tbplantillas -%>
+			<tr>
+				<td><%= plantilla.id_plantilla %></td>
+                		<td><%= plantilla.pl_codigo %></td>
+                		<td><%= plantilla.pl_descripcion%></td>
+		        <td>
+		            <a href="<%= edit_tb_plantilla_url(plantilla.id_plantilla)%>"><div class="page_edit"></div></a>
+		            <% link_to plantilla, :method => :delete do%> <div class="delete"></div><% end %>
+		        </td>
+			</tr>
+            <% end -%>
+		</tbody>
+
+</table>

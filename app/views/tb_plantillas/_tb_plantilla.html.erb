@@ -1,0 +1,15 @@
+<% form_for @tb_plantilla, :html => {:class => "plantillas"} do |f| %>
+    <%= f.error_messages %>
+    <p>
+      <%= f.label :pl_codigo, "Codigo"%>
+      <%= f.text_field :pl_codigo, :class => "text"%>
+    </p>
+    <p>
+      <%= f.label :pl_descripcion, "Descripcion"%>
+      <%= f.text_area :pl_descripcion, :size => "66x5" %>
+    </p>
+    <p>
+      <%= f.label :pl_plantilla, "Plantilla", :class => "plantilla" %>
+      <%= f.tinymce :pl_plantilla%>
+    </p>
+<% end %>

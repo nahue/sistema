@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<%=stylesheet_link_tag 'compiled/screen.css', :media => 'screen, projection'%>
+        <%=stylesheet_link_tag 'compiled/iconos.css', :media => 'screen, projection'%>
+		<%= stylesheet_link_tag 'compiled/print.css', :media => 'print'%>
+			<!--/[if IE]-->
+		<%=stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'%>
+		<%=stylesheet_link_tag "menu_style.css" %>
+        <%=javascript_include_tag "jquery-1.4.2.min.js"%>
+        <%=javascript_include_tag 'application' %>
+        <%= init_tinymce_hammer_if_required %>
+      
+        <%= yield :head %>
+
+	</head>
+    <body class="vd2">
+				
+		<div id="container">
+			
+			<div id="content">
+				<div id="header">
+					<div class="menu">
+					<ul>
+						<li><a href="#" >Principal</a>
+							<ul>
+								<% if current_user %>
+									<li><%= link_to "Editar Perfil", edit_usuario_path(:current) %></li>
+								  	<li><%= link_to "Cerrar Sesion", logout_path %></li>
+								<% else %>					
+									<li><%= link_to "Registrar", new_usuario_path %></li>
+							   		<li><%= link_to "Iniciar Sesion", login_path %></li>	
+								<% end %>			
+							</ul>
+						</li>
+						<li><%= link_to "Plantillas", tb_plantillas_path %>
+						<ul>
+							<li><%= link_to "Nueva", new_tb_plantilla_path%></li>
+						</ul>
+						</li>
+						<li><a href="/faq.php">FAQ</a>
+						    <ul>
+						    <li><a href="#">Drop Down CSS Menus</a></li>
+						    <li><a href="#">Horizontal CSS Menus</a></li>
+						    <li><a href="#">Vertical CSS Menus</a></li>
+						    <li><a href="#">Dreamweaver Menus</a></li>
+						    </ul>
+					  </li>
+						<li><a href="/contact/contact.php">Contact</a></li>
+					</ul>
+				</div>
+
+		</div>
+			<% [:error, :warning, :notice, :message, :success].each do |key| %>
+				<%= content_tag :div, flash.now[key], :id => key if flash.now[key] %>
+			<% end %>
+		    <%= yield %>
+			</div>
+		</div>
+    </body>
+</html>

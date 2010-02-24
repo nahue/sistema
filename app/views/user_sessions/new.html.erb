@@ -1,0 +1,26 @@
+<% content_for :head do %>
+
+    <% javascript_tag do %>
+    $(document).ready(function (){
+        $("#user_session").submitWithAjax();
+    });
+    <% end %>
+<% end %>
+
+
+<% form_for @user_session, :html => {:class => "login", :id => "user_session"} do |form| %>
+    <div id="errores"></div>
+
+      <p>
+        <%= form.label :username, "Usuario: " %>
+        <%= form.text_field :username, :class => "text" %>
+      </p>
+      <p>
+        <%= form.label :password, "Contraseña: " %>
+        <%= form.password_field :password, :class => "text" %>
+      </p>
+      <p>
+        <%= form.submit "Enviar" %>
+      </p>
+
+<% end %>

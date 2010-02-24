@@ -1,0 +1,5 @@
+<% if @user_session.errors.empty? %>
+    location.href = "<%= root_url%>"
+<% else %>
+    $('#errores').html('<div id="notice"><%= @user_session.errors.each_full{|msg| puts msg } %></div>');
+<% end %>

@@ -1,0 +1,13 @@
+/* line 9, ../../../app/stylesheets/iconos.sass */
+.page_edit {
+  height: 16px;
+  width: 16px;
+  float: left;
+  background-image: url("/images/icons/page_edit.png"); }
+
+/* line 15, ../../../app/stylesheets/iconos.sass */
+.delete {
+  height: 16px;
+  width: 16px;
+  float: left;
+  background-image: url("/images/icons/delete.png"); }
