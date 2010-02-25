@@ -7939,3 +7939,234 @@ Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-24 23:10:25
   [4;36;1mUsuario Load (0.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'asdas') LIMIT 1[0m
 Rendering user_sessions/create
 Completed in 82ms (View: 12, DB: 1) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-25 18:08:09) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+Completed in 670ms (View: 658, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing UserSessionsController#new (for 192.168.3.1 at 2010-02-25 18:08:15) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 304ms (View: 207, DB: 0) | 200 OK [http://192.168.3.128/login]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-25 18:08:21) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>""}, "authenticity_token"=>"RfL4RizlPLUFAM/dVkf1I3vy0uc1nzorEGnfnKZIFnU="}
+Rendering user_sessions/create
+Completed in 107ms (View: 38, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-25 18:08:24) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>""}, "authenticity_token"=>"RfL4RizlPLUFAM/dVkf1I3vy0uc1nzorEGnfnKZIFnU="}
+Rendering user_sessions/create
+Completed in 164ms (View: 12, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-25 18:08:28) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha"}, "authenticity_token"=>"RfL4RizlPLUFAM/dVkf1I3vy0uc1nzorEGnfnKZIFnU="}
+  [4;36;1mUsuario Load (2.1ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 5474ms (View: 2, DB: 2) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-25 18:08:33) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (1.6ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 172ms (View: 158, DB: 2) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-25 18:08:52) [GET]
+  [4;36;1mTbPlantilla Load (2.4ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (1.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (1.7ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 1047ms (View: 927, DB: 5) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:08:57) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (141.1ms)
+  [4;35;1mUsuario Load (1.3ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 353ms (View: 322, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:08:58) [GET]
+Completed in 1013ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:11:08) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (20.0ms)
+  [4;36;1mUsuario Load (1.7ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 141ms (View: 108, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:11:08) [GET]
+Completed in 11ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:13:06) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (17.9ms)
+  [4;35;1mUsuario Load (2.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 145ms (View: 112, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:13:07) [GET]
+Completed in 9ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:16:46) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (20.5ms)
+  [4;36;1mUsuario Load (1.6ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 142ms (View: 106, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:16:47) [GET]
+Completed in 19ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:19:13) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (30.3ms)
+  [4;35;1mUsuario Load (7.1ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 400ms (View: 270, DB: 7) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:19:14) [GET]
+Completed in 25ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:20:09) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (17.5ms)
+  [4;36;1mUsuario Load (1.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 151ms (View: 100, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:20:09) [GET]
+Completed in 9ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:20:28) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (46.2ms)
+  [4;35;1mUsuario Load (7.0ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 684ms (View: 636, DB: 7) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:20:29) [GET]
+Completed in 31ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:24:02) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+
+ActionView::TemplateError (wrong number of arguments (0 for 1)) on line #16 of app/views/tb_plantillas/_tb_plantilla.html.erb:
+13:       <%= f.tinymce :pl_plantilla%>
+14:     </p>
+15:     <p>
+16:       <%= form.submit "Guardar" %>
+17:     </p>
+18: <% end %>
+
+    app/views/tb_plantillas/_tb_plantilla.html.erb:16:in `form'
+    app/views/tb_plantillas/_tb_plantilla.html.erb:16
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:171:in `form_for'
+    app/views/tb_plantillas/_tb_plantilla.html.erb:1
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    app/views/tb_plantillas/new.html.erb:1
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process_without_compass'
+    compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendered rescues/_trace (240.0ms)
+Rendered rescues/_request_and_response (4.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:24:14) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (150.7ms)
+  [4;36;1mUsuario Load (1.9ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 2010ms (View: 1921, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:24:17) [GET]
+Completed in 36ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-25 18:24:36) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"", "pl_plantilla"=>"", "pl_codigo"=>""}, "commit"=>"Guardar", "authenticity_token"=>"RfL4RizlPLUFAM/dVkf1I3vy0uc1nzorEGnfnKZIFnU="}
+
+ActionController::UnknownAction (No action responded to create. Actions: destroy, edit, index, and new):
+  haml (2.2.20) lib/sass/plugin/rails.rb:20:in `process_without_compass'
+  compass (0.8.17) [v] lib/compass/app_integration/rails/action_controller.rb:7:in `process'
+
+Rendering rescues/layout (not_found)
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:24:39) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (23.2ms)
+  [4;35;1mUsuario Load (1.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 190ms (View: 156, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:24:40) [GET]
+Completed in 43ms (View: 2, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-25 18:50:46) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+Completed in 157ms (View: 145, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing UserSessionsController#new (for 192.168.3.1 at 2010-02-25 18:50:57) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 92ms (View: 26, DB: 0) | 200 OK [http://192.168.3.128/login]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-25 18:51:02) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha"}, "authenticity_token"=>"u0w9+6zDqsvVisLYJh2ixdfXeuF+OxdPb/aqx0NwKg8="}
+  [4;36;1mUsuario Load (1.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 85ms (View: 2, DB: 1) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-25 18:51:02) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (1.6ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 90ms (View: 78, DB: 2) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-25 18:51:10) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (17.4ms)
+  [4;36;1mUsuario Load (1.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 123ms (View: 95, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-25 18:51:11) [GET]
+Completed in 9ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]

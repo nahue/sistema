@@ -163,11 +163,12 @@ form.usuarios input { display: block; margin-left: 150px; }
 form.usuarios input[type=text], form.usuarios input[type=password] { width: 200px; }
 form.usuarios select { width: 200px; display: block; margin-left: 150px; }
 
-form.plantillas { width: 50%; margin: 0 auto; margin-top: 50px; }
+form.plantillas { width: 60%; margin: 0 auto; margin-top: 50px; }
 form.plantillas label { text-align: right; display: block; float: left; width: 140px; }
 form.plantillas input { display: block; margin-left: 150px; }
 form.plantillas input[type=text], form.plantillas input[type=password] { width: 200px; }
 form.plantillas select { width: 200px; display: block; margin-left: 150px; }
-form.plantillas textarea { margin-left: -20px; }
+form.plantillas label { margin-right: 10px; }
+form.plantillas textarea { display: block; margin-left: -20px; }
 
 label.plantilla { margin-right: 10px; }
