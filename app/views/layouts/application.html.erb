@@ -8,6 +8,7 @@
 		<%=stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'%>
 		<%=stylesheet_link_tag "menu_style.css" %>
         <%=javascript_include_tag "jquery-1.4.2.min.js"%>
+        <%=javascript_include_tag "jquery.tools.min.js"%>
         <%=javascript_include_tag 'application' %>
         <%= init_tinymce_hammer_if_required %>
       
@@ -54,6 +55,12 @@
 			<% [:error, :warning, :notice, :message, :success].each do |key| %>
 				<%= content_tag :div, flash.now[key], :id => key if flash.now[key] %>
 			<% end %>
+            <div class="apple_overlay" id="overlay"> 
+
+                <!-- the external content is loaded inside this tag -->
+                <div class="contentWrap"></div>
+
+            </div>
 		    <%= yield %>
 			</div>
 		</div>

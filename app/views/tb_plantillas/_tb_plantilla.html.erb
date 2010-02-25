@@ -1,5 +1,14 @@
-<% form_for @tb_plantilla, :html => {:class => "plantillas"} do |f| %>
-    <%= f.error_messages %>
+<% content_for :head do %>
+
+    <% javascript_tag do %>
+    $(document).ready(function (){
+        $("#tb_plantilla").submitWithAjax();
+    });
+    <% end %>
+<% end %>
+
+<% form_for @tb_plantilla, :html => {:class => "plantillas", :id => "tb_plantilla"} do |f| %>
+    <div id="errores"></div>
     <p>
       <%= f.label :pl_codigo, "Codigo"%>
       <%= f.text_field :pl_codigo, :class => "text"%>
