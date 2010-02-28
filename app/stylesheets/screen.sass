@@ -103,12 +103,14 @@ body.vd2
     :text-align right
     :display block
     :float left
-    :width 140px
+    :width 90px
+    :margin-right 10px
   input
     :display block
-    :margin-left 150px
     &[type=text], &[type=password]
       :width 200px
+    &[type=submit]
+      :margin-left 100px
   select
     :width 200px
     :display block
@@ -119,16 +121,16 @@ form.productos
   :width 80%
   +formularios
 form.login
-  :width 50%
+  :width 340px
   +formularios
 form.usuarios
   :width 40%
   +formularios
 form.plantillas
-  :width 60%
+  :width 720px
   +formularios
   label
-    :margin-right 10px
+    //:margin-right 10px
   textarea
     :display block
     :margin-left -20px

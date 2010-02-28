@@ -22,6 +22,6 @@
       <%= f.tinymce :pl_plantilla%>
     </p>
     <p>
-      <%= f.submit "Guardar" %>
+      <input class="submit" onclick="tinyMCE.triggerSave(true,true);" type="submit" value="Enviar"/>
     </p>
 <% end %>

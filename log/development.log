@@ -9404,3 +9404,1257 @@ Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-25 21:04:25
   [4;36;1mTbPlantilla Load (0.7ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '1') LIMIT 1[0m
 Rendering tb_plantillas/create
 Completed in 80ms (View: 40, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-27 00:21:45) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+Completed in 272ms (View: 270, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 00:21:47) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (72.3ms)
+Completed in 213ms (View: 184, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 00:21:48) [GET]
+Completed in 273ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-27 21:54:15) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+Completed in 254ms (View: 243, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 21:54:21) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (30.3ms)
+Completed in 185ms (View: 152, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 21:54:22) [GET]
+Completed in 165ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:03:25) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.4ms)
+Completed in 32ms (View: 24, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:03:25) [GET]
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:03:30) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.3ms)
+Completed in 31ms (View: 24, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:03:30) [GET]
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:03:42) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.5ms)
+Completed in 32ms (View: 24, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:03:42) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:13:50) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.9ms)
+Completed in 32ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:13:50) [GET]
+Completed in 15ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:14:04) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.3ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:14:04) [GET]
+Completed in 44ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:15:19) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.8ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:15:19) [GET]
+Completed in 45ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:17:08) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.3ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:17:09) [GET]
+Completed in 48ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:17:35) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.1ms)
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:17:35) [GET]
+Completed in 44ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:18:51) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.2ms)
+Completed in 30ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:18:51) [GET]
+Completed in 46ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:19:12) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (21.9ms)
+Completed in 122ms (View: 93, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:19:13) [GET]
+Completed in 11ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:19:34) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (21.3ms)
+Completed in 122ms (View: 92, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:19:34) [GET]
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:19:43) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.5ms)
+Completed in 31ms (View: 24, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:19:44) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:19:49) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (60.0ms)
+Completed in 88ms (View: 80, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:19:50) [GET]
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing UserSessionsController#new (for 192.168.3.1 at 2010-02-27 22:21:58) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 28ms (View: 12, DB: 0) | 200 OK [http://192.168.3.128/login]
+
+
+Processing UserSessionsController#new (for 192.168.3.1 at 2010-02-27 22:22:30) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 100ms (View: 30, DB: 0) | 200 OK [http://192.168.3.128/login]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:22:41) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (20.5ms)
+Completed in 119ms (View: 90, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:22:41) [GET]
+Completed in 50ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 22:23:39) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (24.5ms)
+Completed in 133ms (View: 103, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 22:23:40) [GET]
+Completed in 9ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing UserSessionsController#new (for 192.168.3.1 at 2010-02-27 22:23:43) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 23ms (View: 7, DB: 0) | 200 OK [http://192.168.3.128/login]
+
+
+Processing UserSessionsController#new (for 192.168.3.1 at 2010-02-27 22:24:17) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Completed in 24ms (View: 8, DB: 0) | 200 OK [http://192.168.3.128/login]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:35:29) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mUsuario Load (13.1ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 419ms (View: 7, DB: 13) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:36:20) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mUsuario Load (1.0ms)[0m   [0mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 65ms (View: 5, DB: 1) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:36:49) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mUsuario Load (0.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:36:50) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 26ms (View: 4, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:36:50) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mUsuario Load (0.7ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 35ms (View: 4, DB: 1) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:36:50) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 25ms (View: 3, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:37:06) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha1986"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 23ms (View: 3, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:37:11) [POST]
+  Parameters: {"user_session"=>{"username"=>"nchavez", "password"=>"nchavez"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mUsuario Load (0.2ms)[0m   [0mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'nchavez') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 22ms (View: 3, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing UserSessionsController#create (for 192.168.3.1 at 2010-02-27 23:37:32) [POST]
+  Parameters: {"user_session"=>{"username"=>"strato1986", "password"=>"nahuelcha"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE (LOWER("usuarios".username) = 'strato1986') LIMIT 1[0m
+Rendering user_sessions/create
+Completed in 21ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/user_sessions]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-27 23:37:32) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (0.6ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 89ms (View: 86, DB: 1) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:37:34) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.0ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 33ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:37:34) [GET]
+Completed in 59ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:38:11) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+  [4;36;1mTbPlantilla Create (15.9ms)[0m   [0;1mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('Pruebita', '', '3', NULL)[0m
+Rendering tb_plantillas/create
+Completed in 100ms (View: 16, DB: 17) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-27 23:38:11) [GET]
+  [4;35;1mTbPlantilla Load (3.2ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;35;1mUsuario Load (1.6ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 370ms (View: 338, DB: 6) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-27 23:38:15) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mTbPlantilla Load (1.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 5) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (23.5ms)
+  [4;35;1mUsuario Load (1.5ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 153ms (View: 119, DB: 3) | 200 OK [http://192.168.3.128/tb_plantillas/5/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:38:16) [GET]
+Completed in 182ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-27 23:42:12) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mTbPlantilla Load (1.1ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 5) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (24.0ms)
+  [4;35;1mUsuario Load (1.5ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 141ms (View: 108, DB: 3) | 200 OK [http://192.168.3.128/tb_plantillas/5/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:42:13) [GET]
+Completed in 176ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#update (for 192.168.3.1 at 2010-02-27 23:42:16) [PUT]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"<p>rtyrtyrtyrtyrtyrty<br _mce_bogus=\"1\"></p>", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"5"}
+  [4;36;1mTbPlantilla Load (1.1ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 5) [0m
+  [4;35;1mTbPlantilla Load (0.7ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3' AND "tb_plantillas".id_plantilla <> 5) LIMIT 1[0m
+  [4;36;1mTbPlantilla Update (0.8ms)[0m   [0;1mUPDATE "tb_plantillas" SET "pl_plantilla" = '<p>rtyrtyrtyrtyrtyrty<br _mce_bogus="1"></p>' WHERE "id_plantilla" = 5[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 73ms (DB: 3) | 302 Found [http://192.168.3.128/tb_plantillas/5]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-27 23:42:17) [GET]
+  [4;35;1mTbPlantilla Load (3.7ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (14.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;35;1mUsuario Load (1.7ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 350ms (View: 303, DB: 19) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-27 23:42:31) [GET]
+  [4;36;1mTbPlantilla Load (3.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (1.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 179ms (View: 147, DB: 5) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-27 23:42:33) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mTbPlantilla Load (1.1ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 5) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (25.7ms)
+  [4;36;1mUsuario Load (1.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 148ms (View: 113, DB: 3) | 200 OK [http://192.168.3.128/tb_plantillas/5/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:42:34) [GET]
+Completed in 9ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-27 23:42:37) [GET]
+  [4;35;1mTbPlantilla Load (3.2ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;35;1mUsuario Load (1.5ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 183ms (View: 150, DB: 5) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#destroy (for 192.168.3.1 at 2010-02-27 23:42:40) [DELETE]
+  Parameters: {"authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"5"}
+  [4;36;1mTbPlantilla Load (1.0ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 5) [0m
+  [4;35;1mTbPlantilla Destroy (1.3ms)[0m   [0mDELETE FROM "tb_plantillas" WHERE "id_plantilla" = 5[0m
+Redirected to http://192.168.3.128:3000/
+Completed in 58ms (DB: 2) | 302 Found [http://192.168.3.128/tb_plantillas/5]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-27 23:42:40) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;36;1mUsuario Load (1.8ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 280ms (View: 267, DB: 2) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:43:21) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (21.3ms)
+  [4;35;1mUsuario Load (1.5ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 134ms (View: 105, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:43:21) [GET]
+Completed in 183ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:43:28) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mTbPlantilla Load (0.6ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+  [4;35;1mTbPlantilla Create (0.9ms)[0m   [0mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('Pruebita', '', '3', NULL)[0m
+Rendering tb_plantillas/create
+Completed in 56ms (View: 2, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-27 23:43:29) [GET]
+  [4;36;1mTbPlantilla Load (0.8ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (0.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 97ms (View: 89, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#destroy (for 192.168.3.1 at 2010-02-27 23:44:45) [DELETE]
+  Parameters: {"authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"6"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 6) [0m
+  [4;36;1mTbPlantilla Destroy (0.2ms)[0m   [0;1mDELETE FROM "tb_plantillas" WHERE "id_plantilla" = 6[0m
+Redirected to http://192.168.3.128:3000/
+Completed in 18ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/6]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-27 23:44:45) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 24ms (View: 21, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:44:47) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.3ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:44:47) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:44:52) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asas", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.1ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+  [4;36;1mTbPlantilla Create (0.3ms)[0m   [0;1mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('asas', '', '3', NULL)[0m
+Rendering tb_plantillas/create
+Completed in 30ms (View: 4, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:46:49) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asas", "pl_plantilla"=>"<p>asdasd</p>", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.2ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:46:56) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.7ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 36ms (View: 28, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:46:56) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:46:58) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asas", "pl_plantilla"=>"<p>asdasd<br _mce_bogus=\"1\"></p>", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:47:05) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.2ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:47:05) [GET]
+Completed in 58ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:47:11) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasd", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.7ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 74ms (View: 33, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:49:16) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (57.0ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 87ms (View: 79, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:49:16) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-27 23:52:16) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.7ms)
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 94ms (View: 29, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-27 23:52:16) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-27 23:52:25) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasd", "pl_plantilla"=>"<p><br _mce_bogus=\"1\"></p>", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mTbPlantilla Load (0.7ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 82ms (View: 41, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:03:00) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (7.7ms)
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 41ms (View: 29, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:03:00) [GET]
+Completed in 64ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:03:05) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"sdfsdf", "pl_plantilla"=>"", "pl_codigo"=>"sdfsdf"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mTbPlantilla Load (0.7ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = 'sdfsdf') LIMIT 1[0m
+  [4;35;1mTbPlantilla Create (0.9ms)[0m   [0mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('sdfsdf', '', 'sdfsdf', NULL)[0m
+Rendering tb_plantillas/create
+Completed in 81ms (View: 16, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:03:26) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (20.4ms)
+  [4;36;1mUsuario Load (2.3ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 314ms (View: 283, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:03:27) [GET]
+Completed in 8ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:03:36) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"sgsg", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 51ms (View: 12, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:04:51) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (21.6ms)
+  [4;36;1mUsuario Load (1.8ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 140ms (View: 107, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:04:51) [GET]
+Completed in 9ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:05:20) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"sdfsdf", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 90ms (View: 47, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:07:35) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (6.2ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 37ms (View: 30, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:07:35) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:07:41) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasdas", "pl_plantilla"=>"<p>asdasdasd</p>\r\n<p>asdas</p>\r\n<p>da</p>\r\n<p>sd</p>", "pl_codigo"=>"3"}, "commit"=>"Guardar", "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.7ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 44ms (DB: 1) | 302 Found [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:07:42) [GET]
+  [4;36;1mTbPlantilla Load (1.0ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 49ms (View: 41, DB: 2) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 00:07:47) [GET]
+  Parameters: {"id"=>"8"}
+  [4;35;1mTbPlantilla Load (1.2ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 8) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (73.0ms)
+  [4;36;1mUsuario Load (1.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 246ms (View: 187, DB: 3) | 200 OK [http://192.168.3.128/tb_plantillas/8/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:07:49) [GET]
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#destroy (for 192.168.3.1 at 2010-02-28 00:07:59) [DELETE]
+  Parameters: {"authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"8"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 8) [0m
+  [4;36;1mTbPlantilla Destroy (0.2ms)[0m   [0;1mDELETE FROM "tb_plantillas" WHERE "id_plantilla" = 8[0m
+Redirected to http://192.168.3.128:3000/
+Completed in 33ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/8]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-28 00:08:00) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 26ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:08:01) [GET]
+  [4;36;1mTbPlantilla Load (0.9ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 43ms (View: 35, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#destroy (for 192.168.3.1 at 2010-02-28 00:08:03) [DELETE]
+  Parameters: {"authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"7"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 7) [0m
+  [4;36;1mTbPlantilla Destroy (0.2ms)[0m   [0;1mDELETE FROM "tb_plantillas" WHERE "id_plantilla" = 7[0m
+Redirected to http://192.168.3.128:3000/
+Completed in 15ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/7]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-28 00:08:03) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 24ms (View: 21, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:08:04) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (23.5ms)
+  [4;36;1mUsuario Load (1.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 146ms (View: 113, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:08:05) [GET]
+Completed in 8ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:08:26) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasdasd", "pl_plantilla"=>"<p>asdasdasd</p>", "pl_codigo"=>"3"}, "commit"=>"Guardar", "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.5ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+  [4;36;1mTbPlantilla Create (0.9ms)[0m   [0;1mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('asdasdasd', '<p>asdasdasd</p>', '3', NULL)[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 52ms (DB: 1) | 302 Found [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:08:26) [GET]
+  [4;35;1mTbPlantilla Load (3.5ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;35;1mUsuario Load (1.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 175ms (View: 144, DB: 6) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 00:08:32) [GET]
+  Parameters: {"id"=>"9"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 9) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (63.8ms)
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 94ms (View: 86, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/9/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:08:33) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:08:36) [GET]
+  [4;36;1mTbPlantilla Load (0.9ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 52ms (View: 38, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#destroy (for 192.168.3.1 at 2010-02-28 00:08:37) [DELETE]
+  Parameters: {"authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"9"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 9) [0m
+  [4;36;1mTbPlantilla Destroy (0.2ms)[0m   [0;1mDELETE FROM "tb_plantillas" WHERE "id_plantilla" = 9[0m
+Redirected to http://192.168.3.128:3000/
+Completed in 14ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/9]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-28 00:08:38) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 84ms (View: 81, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:08:39) [GET]
+  [4;36;1mTbPlantilla Load (3.4ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (1.5ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 175ms (View: 141, DB: 6) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#destroy (for 192.168.3.1 at 2010-02-28 00:08:41) [DELETE]
+  Parameters: {"authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"4"}
+  [4;35;1mTbPlantilla Load (1.0ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 4) [0m
+  [4;36;1mTbPlantilla Destroy (0.8ms)[0m   [0;1mDELETE FROM "tb_plantillas" WHERE "id_plantilla" = 4[0m
+Redirected to http://192.168.3.128:3000/
+Completed in 77ms (DB: 2) | 302 Found [http://192.168.3.128/tb_plantillas/4]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-28 00:08:42) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 24ms (View: 21, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:08:43) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.0ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 33ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:08:43) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:08:52) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"<p>PrubiiiJOJOASJDAOSJDAOSJdasd</p>\r\n<p>as</p>\r\n<p>da</p>\r\n<p>s</p>\r\n<p>asd</p>\r\n<p>a</p>\r\n<p>sd</p>\r\n<p>asdasd</p>", "pl_codigo"=>"3"}, "commit"=>"Guardar", "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.1ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+  [4;36;1mTbPlantilla Create (0.2ms)[0m   [0;1mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('Pruebita', '<p>PrubiiiJOJOASJDAOSJDAOSJdasd</p>
+<p>as</p>
+<p>da</p>
+<p>s</p>
+<p>asd</p>
+<p>a</p>
+<p>sd</p>
+<p>asdasd</p>', '3', NULL)[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 15ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:08:52) [GET]
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 42ms (View: 34, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 00:08:54) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (5.7ms)
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 36ms (View: 28, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas/10/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:08:54) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 00:10:03) [GET]
+  Parameters: {"id"=>"10"}
+  [4;36;1mTbPlantilla Load (1.1ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (24.1ms)
+  [4;35;1mUsuario Load (1.6ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 143ms (View: 109, DB: 3) | 200 OK [http://192.168.3.128/tb_plantillas/10/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:10:04) [GET]
+Completed in 8ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#update (for 192.168.3.1 at 2010-02-28 00:10:07) [PUT]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"<p>PrubiiiJOJOASJDAOSJDAOSJdasd</p>\r\n<p>as</p>\r\n<p>da</p>\r\n<p>s</p>\r\n<p>asd</p>\r\n<p>a</p>\r\n<p>sd</p>\r\n<p>asdasd</p>", "pl_codigo"=>"3"}, "commit"=>"Guardar", "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg=", "id"=>"10"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+  [4;35;1mTbPlantilla Load (0.1ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3' AND "tb_plantillas".id_plantilla <> 10) LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 11ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/10]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:10:07) [GET]
+  [4;36;1mTbPlantilla Load (0.8ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 42ms (View: 34, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:10:12) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.0ms)
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 33ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:10:12) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:10:21) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"OKOKO", "pl_plantilla"=>"<p>sdfstdyjdydyjd</p>\r\n<p>yj</p>\r\n<p>dyj</p>\r\n<p>dfy</p>\r\n<p>j</p>", "pl_codigo"=>"3"}, "commit"=>"Guardar", "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mTbPlantilla Load (0.2ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 10ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:10:22) [GET]
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:10:36) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.2ms)
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 33ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:10:36) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:10:44) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdPEOPEOEP", "pl_plantilla"=>"<p>DPFKDZf</p>\r\n<p>gsf</p>\r\n<p>gs</p>\r\n<p>fg</p>", "pl_codigo"=>"3"}, "commit"=>"Guardar", "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;35;1mTbPlantilla Load (0.7ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 42ms (DB: 1) | 302 Found [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 00:10:45) [GET]
+  [4;36;1mTbPlantilla Load (0.8ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+  [4;36;1mUsuario Load (0.4ms)[0m   [0;1mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 44ms (View: 35, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 00:11:47) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (6.3ms)
+  [4;35;1mUsuario Load (0.4ms)[0m   [0mSELECT * FROM "usuarios" WHERE ("usuarios"."id" = '1') LIMIT 1[0m
+Completed in 38ms (View: 30, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 00:11:47) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 00:11:56) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasde234234234", "pl_plantilla"=>"", "pl_codigo"=>"3"}, "authenticity_token"=>"xSyekB5ui6YnKtDI8ht7eZuDmi+SFa5Fo3C03qyf8Mg="}
+  [4;36;1mTbPlantilla Load (0.7ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 76ms (View: 35, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing PrincipalController#index (for 192.168.3.1 at 2010-02-28 13:49:30) [GET]
+Rendering template within layouts/application
+Rendering principal/index
+Completed in 110ms (View: 107, DB: 0) | 200 OK [http://192.168.3.128/]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 13:49:31) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (7.3ms)
+Completed in 39ms (View: 32, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:49:31) [GET]
+Completed in 34ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:49:41) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasd", "pl_plantilla"=>"<p>argarrg</p>", "pl_codigo"=>"3"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;36;1mTbPlantilla Load (0.6ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 24ms (View: 13, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:49:46) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"asdasd", "pl_plantilla"=>"<p>argarrg</p>", "pl_codigo"=>"3"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;35;1mTbPlantilla Load (0.2ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 30ms (View: 8, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 13:49:47) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.3ms)
+Completed in 31ms (View: 24, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:49:47) [GET]
+Completed in 22ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 13:49:50) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.5ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:49:50) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:49:54) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"dsfasdf", "pl_plantilla"=>"<p>asdfasdf</p>", "pl_codigo"=>"3"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;36;1mTbPlantilla Load (0.2ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 18ms (View: 8, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 13:50:11) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (5.9ms)
+Completed in 33ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:50:11) [GET]
+Completed in 45ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:50:12) [GET]
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 41ms (View: 34, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 13:50:16) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (5.8ms)
+Completed in 34ms (View: 26, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/10/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:50:16) [GET]
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#update (for 192.168.3.1 at 2010-02-28 13:50:25) [PUT]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"<p><strong>Lazy Loading TinyMCE Hammer</strong></p>\n<p>My personal preference is for no Javascript to be included in  the HTML.           I prefer a behavioural seperation of Javascript from the  markup.           I also like lazy loading larger javascript libraries and to  not include           them on every page.</p>\n<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it  dumps           Javascript into your page in a second pair of script tags.</p>\n<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>\n<p>In the           <a href=\"http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/\">previous  tutorial</a> we loaded the tinymce_hammer combined Javascript file using  the named route           <code>tinymce_hammer_js</code> and plain-old script tags.  In this tutorial we will use           <a href=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\">lazyload.js</a> to load and initialize a TinyMCE editor.           <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\">Lazy Load</a> is an excellect cross-browser Javascript library that makes it  easy to           include external Javascript files after page load.</p>\n<p>Inlucde the lazyload.js library and your custom js file</p>\n<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('lazyload') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('behaviours') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>", "pl_codigo"=>"3"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs=", "id"=>"10"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+  [4;35;1mTbPlantilla Load (0.2ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3' AND "tb_plantillas".id_plantilla <> 10) LIMIT 1[0m
+  [4;36;1mTbPlantilla Update (0.7ms)[0m   [0;1mUPDATE "tb_plantillas" SET "pl_plantilla" = '<p><strong>Lazy Loading TinyMCE Hammer</strong></p>
+<p>My personal preference is for no Javascript to be included in the HTML. I prefer a behavioural seperation of Javascript from the markup. I also like lazy loading larger javascript libraries and to not include them on every page.</p>
+<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it dumps Javascript into your page in a second pair of script tags.</p>
+<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>
+<p>In the <a href="http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/">previous tutorial</a> we loaded the tinymce_hammer combined Javascript file using the named route <code>tinymce_hammer_js</code> and plain-old script tags. In this tutorial we will use <a href="http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js">lazyload.js</a> to load and initialize a TinyMCE editor. <a href="http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload">Lazy Load</a> is an excellect cross-browser Javascript library that makes it easy to include external Javascript files after page load.</p>
+<p>Inlucde the lazyload.js library and your custom js file</p>
+<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag(''lazyload'') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag(''behaviours'') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>' WHERE "id_plantilla" = 10[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 72ms (DB: 1) | 302 Found [http://192.168.3.128/tb_plantillas/10]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:50:26) [GET]
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 36ms (View: 28, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#update (for 192.168.3.1 at 2010-02-28 13:50:30) [PUT]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"Pruebita", "pl_plantilla"=>"<p><strong>Lazy Loading TinyMCE Hammer</strong></p>\n<p>My personal preference is for no Javascript to be included in  the HTML.           I prefer a behavioural seperation of Javascript from the  markup.           I also like lazy loading larger javascript libraries and to  not include           them on every page.</p>\n<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it  dumps           Javascript into your page in a second pair of script tags.</p>\n<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>\n<p>In the           <a href=\"http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/\">previous  tutorial</a> we loaded the tinymce_hammer combined Javascript file using  the named route           <code>tinymce_hammer_js</code> and plain-old script tags.  In this tutorial we will use           <a href=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\">lazyload.js</a> to load and initialize a TinyMCE editor.           <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\">Lazy Load</a> is an excellect cross-browser Javascript library that makes it  easy to           include external Javascript files after page load.</p>\n<p>Inlucde the lazyload.js library and your custom js file</p>\n<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('lazyload') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('behaviours') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>", "pl_codigo"=>"3"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs=", "id"=>"10"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+  [4;36;1mTbPlantilla Load (0.2ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3' AND "tb_plantillas".id_plantilla <> 10) LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 57ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/10]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:50:30) [GET]
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 36ms (View: 29, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:50:46) [GET]
+  [4;35;1mTbPlantilla Load (0.8ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 36ms (View: 29, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 13:50:48) [GET]
+  Parameters: {"id"=>"10"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 10) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (5.8ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/10/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:50:48) [GET]
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 13:50:50) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (4.9ms)
+Completed in 29ms (View: 22, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:50:50) [GET]
+Completed in 41ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:50:58) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"ASDASDÑAÑSD\303\221", "pl_plantilla"=>"<p><strong>Lazy Loading TinyMCE Hammer</strong></p>\n<p>My personal preference is for no Javascript to be included in  the HTML.           I prefer a behavioural seperation of Javascript from the  markup.           I also like lazy loading larger javascript libraries and to  not include           them on every page.</p>\n<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it  dumps           Javascript into your page in a second pair of script tags.</p>\n<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>\n<p>In the           <a href=\"http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/\">previous  tutorial</a> we loaded the tinymce_hammer combined Javascript file using  the named route           <code>tinymce_hammer_js</code> and plain-old script tags.  In this tutorial we will use           <a href=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\">lazyload.js</a> to load and initialize a TinyMCE editor.           <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\">Lazy Load</a> is an excellect cross-browser Javascript library that makes it  easy to           include external Javascript files after page load.</p>\n<p>Inlucde the lazyload.js library and your custom js file</p>\n<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('lazyload') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('behaviours') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>", "pl_codigo"=>"3"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;36;1mTbPlantilla Load (0.2ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '3') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 18ms (View: 8, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:51:02) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"ASDASDÑAÑSD\303\221", "pl_plantilla"=>"<p><strong>Lazy Loading TinyMCE Hammer</strong></p>\n<p>My personal preference is for no Javascript to be included in  the HTML.           I prefer a behavioural seperation of Javascript from the  markup.           I also like lazy loading larger javascript libraries and to  not include           them on every page.</p>\n<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it  dumps           Javascript into your page in a second pair of script tags.</p>\n<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>\n<p>In the           <a href=\"http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/\">previous  tutorial</a> we loaded the tinymce_hammer combined Javascript file using  the named route           <code>tinymce_hammer_js</code> and plain-old script tags.  In this tutorial we will use           <a href=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\">lazyload.js</a> to load and initialize a TinyMCE editor.           <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\">Lazy Load</a> is an excellect cross-browser Javascript library that makes it  easy to           include external Javascript files after page load.</p>\n<p>Inlucde the lazyload.js library and your custom js file</p>\n<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('lazyload') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('behaviours') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>", "pl_codigo"=>"4"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;35;1mTbPlantilla Load (0.1ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '4') LIMIT 1[0m
+  [4;36;1mTbPlantilla Create (0.4ms)[0m   [0;1mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('ASDASDÑAÑSDÑ', '<p><strong>Lazy Loading TinyMCE Hammer</strong></p>
+<p>My personal preference is for no Javascript to be included in the HTML. I prefer a behavioural seperation of Javascript from the markup. I also like lazy loading larger javascript libraries and to not include them on every page.</p>
+<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it dumps Javascript into your page in a second pair of script tags.</p>
+<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>
+<p>In the <a href="http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/">previous tutorial</a> we loaded the tinymce_hammer combined Javascript file using the named route <code>tinymce_hammer_js</code> and plain-old script tags. In this tutorial we will use <a href="http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js">lazyload.js</a> to load and initialize a TinyMCE editor. <a href="http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload">Lazy Load</a> is an excellect cross-browser Javascript library that makes it easy to include external Javascript files after page load.</p>
+<p>Inlucde the lazyload.js library and your custom js file</p>
+<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag(''lazyload'') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag(''behaviours'') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>', '4', NULL)[0m
+Rendering tb_plantillas/create
+Completed in 31ms (View: 1, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:51:11) [GET]
+  [4;35;1mTbPlantilla Load (0.9ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 41ms (View: 33, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 13:51:13) [GET]
+  Parameters: {"id"=>"11"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 11) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (5.5ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/11/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:51:13) [GET]
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#update (for 192.168.3.1 at 2010-02-28 13:51:34) [PUT]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"ASDASDÑAÑSD\303\221", "pl_plantilla"=>"<p><strong>Lazy Loading TinyMCE Hammer</strong></p>\n<p>My personal preference is for no Javascript to be included in  the HTML.           I prefer a behavioural seperation of Javascript from the  markup.           I also like lazy loading larger javascript libraries and to  not include           them on every page.</p>\n<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it  dumps           Javascript into your page in a second pair of script tags.</p>\n<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>\n<p>In the           <a href=\"http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/\">previous  tutorial</a> we loaded the tinymce_hammer combined Javascript file using  the named route           <code>tinymce_hammer_js</code> and plain-old script tags.  In this tutorial we will use           <a href=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\">lazyload.js</a> to load and initialize a TinyMCE editor.           <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\">Lazy Load</a> is an excellect cross-browser Javascript library that makes it  easy to           include external Javascript files after page load.</p>\n<p>Inlucde the lazyload.js library and your custom js file</p>\n<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('lazyload') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('behaviours') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>", "pl_codigo"=>"4"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs=", "id"=>"11"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 11) [0m
+  [4;35;1mTbPlantilla Load (0.2ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '4' AND "tb_plantillas".id_plantilla <> 11) LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 11ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/11]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:51:34) [GET]
+  [4;36;1mTbPlantilla Load (1.0ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 42ms (View: 34, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 13:51:35) [GET]
+  Parameters: {"id"=>"11"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 11) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (6.0ms)
+Completed in 34ms (View: 25, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/11/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:51:35) [GET]
+Completed in 52ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#update (for 192.168.3.1 at 2010-02-28 13:51:37) [PUT]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"ASDASDÑAÑSD\303\221", "pl_plantilla"=>"<p><strong>Lazy Loading TinyMCE Hammer</strong></p>\n<p>My personal preference is for no Javascript to be included in  the HTML.           I prefer a behavioural seperation of Javascript from the  markup.           I also like lazy loading larger javascript libraries and to  not include           them on every page.</p>\n<p><code>init_tinymce_hammer_if_required</code> only inserts the script tags when an editor is required by it  dumps           Javascript into your page in a second pair of script tags.</p>\n<p><strong>Loading TinyMCE Hammer from Javascript</strong></p>\n<p>In the           <a href=\"http://tinymcehammer.lanalot.com/tutorials/using_the_combined_file/\">previous  tutorial</a> we loaded the tinymce_hammer combined Javascript file using  the named route           <code>tinymce_hammer_js</code> and plain-old script tags.  In this tutorial we will use           <a href=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\">lazyload.js</a> to load and initialize a TinyMCE editor.           <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\">Lazy Load</a> is an excellect cross-browser Javascript library that makes it  easy to           include external Javascript files after page load.</p>\n<p>Inlucde the lazyload.js library and your custom js file</p>\n<pre>&lt;html&gt;<br />&nbsp; &lt;head&gt;<br />&nbsp; &nbsp; &lt;title&gt;Lazy Load Example&lt;/title&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('lazyload') %&gt;<br />&nbsp; &nbsp; &lt;%= javascript_include_tag('behaviours') %&gt;<br />&nbsp; &lt;/head&gt;<br />&nbsp; ...</pre>", "pl_codigo"=>"4"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs=", "id"=>"11"}
+  [4;35;1mTbPlantilla Load (0.3ms)[0m   [0mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 11) [0m
+  [4;36;1mTbPlantilla Load (0.1ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '4' AND "tb_plantillas".id_plantilla <> 11) LIMIT 1[0m
+Redirected to http://192.168.3.128:3000/tb_plantillas
+Completed in 12ms (DB: 0) | 302 Found [http://192.168.3.128/tb_plantillas/11]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:51:37) [GET]
+  [4;35;1mTbPlantilla Load (0.9ms)[0m   [0mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 84ms (View: 76, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#new (for 192.168.3.1 at 2010-02-28 13:52:44) [GET]
+Rendering template within layouts/application
+Rendering tb_plantillas/new
+Rendered tb_plantillas/_tb_plantilla (7.3ms)
+Completed in 37ms (View: 26, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/new]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:52:44) [GET]
+Completed in 47ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:52:56) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"wwwwwwwwwwwwwww", "pl_plantilla"=>"<p><strong> <a href=\"http://wonko.com/\"> wonko.com </a> </strong></p>\n<ul>\n<li><a href=\"http://wonko.com/\">Home</a></li>\n<li><a href=\"http://wonko.com/page/about\">About</a></li>\n<li><a href=\"http://wonko.com/archive/2\">Archives</a></li>\n<li><a href=\"http://wonko.com/comment/\">Comments</a></li>\n</ul>\n<p>Username:                   Password:</p>\n<p><strong> <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\" title=\"Permalink for this post\"> Painless JavaScript lazy loading with LazyLoad </a> </strong></p>\n<p><a href=\"mailto:ryan@wonko.com\">Ryan Grove</a> Tuesday May 29, 2007 @ 11:09 PM (PDT)</p>\n<p>With all the fancy JavaScript libraries to choose from these  days, it can be hard to keep your website&rsquo;s page weight down. Even if  you&rsquo;re using a small, sleek library like <a href=\"http://developer.yahoo.com/yui/\">YUI</a> or <a href=\"http://mootools.net/\">MooTools</a>, there are often times  when it would be nice to be able to load certain scripts only when  they&rsquo;re needed.</p>\n<p>For example, if you load a bunch of fancy animation libraries to do  something spiffy when the user clicks a button, but then the user does  something else instead of clicking the button, then you&rsquo;ve wasted  precious time loading scripts you didn&rsquo;t even need.</p>\n<p>Lazy loading is when you wait to load something until you actually  need it. It&rsquo;s not a new concept, and the techniques for implementing  lazy loading in JavaScript have been around for a while, but it can be a  real pain in the ass to roll your own lazy loading solution, especially  if you want it to be compatible with all the major browsers.</p>\n<p>Luckily, I&rsquo;ve done the hard work for you. All you need to do is  include LazyLoad in any web page like so:</p>\n<pre>&lt;script src=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\"&gt;&lt;/script&gt;</pre>\n<p>Then, when you need to load a script, call <code>LazyLoad.load()</code> or <code>LazyLoad.loadOnce()</code> and pass in the URL  of the script you want to load (or an array of URLs if you need to load  multiple scripts). You can also specify a callback function that will  be executed when the scripts are finished loading.</p>\n<p>The only difference between <code>LazyLoad.load()</code> and <code>LazyLoad.loadOnce()</code> is that <code>loadOnce</code></p>", "pl_codigo"=>"4"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;35;1mTbPlantilla Load (0.2ms)[0m   [0mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '4') LIMIT 1[0m
+Rendering tb_plantillas/create
+Completed in 19ms (View: 9, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#create (for 192.168.3.1 at 2010-02-28 13:53:00) [POST]
+  Parameters: {"tb_plantilla"=>{"pl_descripcion"=>"wwwwwwwwwwwwwww", "pl_plantilla"=>"<p><strong> <a href=\"http://wonko.com/\"> wonko.com </a> </strong></p>\n<ul>\n<li><a href=\"http://wonko.com/\">Home</a></li>\n<li><a href=\"http://wonko.com/page/about\">About</a></li>\n<li><a href=\"http://wonko.com/archive/2\">Archives</a></li>\n<li><a href=\"http://wonko.com/comment/\">Comments</a></li>\n</ul>\n<p>Username:                   Password:</p>\n<p><strong> <a href=\"http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload\" title=\"Permalink for this post\"> Painless JavaScript lazy loading with LazyLoad </a> </strong></p>\n<p><a href=\"mailto:ryan@wonko.com\">Ryan Grove</a> Tuesday May 29, 2007 @ 11:09 PM (PDT)</p>\n<p>With all the fancy JavaScript libraries to choose from these  days, it can be hard to keep your website&rsquo;s page weight down. Even if  you&rsquo;re using a small, sleek library like <a href=\"http://developer.yahoo.com/yui/\">YUI</a> or <a href=\"http://mootools.net/\">MooTools</a>, there are often times  when it would be nice to be able to load certain scripts only when  they&rsquo;re needed.</p>\n<p>For example, if you load a bunch of fancy animation libraries to do  something spiffy when the user clicks a button, but then the user does  something else instead of clicking the button, then you&rsquo;ve wasted  precious time loading scripts you didn&rsquo;t even need.</p>\n<p>Lazy loading is when you wait to load something until you actually  need it. It&rsquo;s not a new concept, and the techniques for implementing  lazy loading in JavaScript have been around for a while, but it can be a  real pain in the ass to roll your own lazy loading solution, especially  if you want it to be compatible with all the major browsers.</p>\n<p>Luckily, I&rsquo;ve done the hard work for you. All you need to do is  include LazyLoad in any web page like so:</p>\n<pre>&lt;script src=\"http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js\"&gt;&lt;/script&gt;</pre>\n<p>Then, when you need to load a script, call <code>LazyLoad.load()</code> or <code>LazyLoad.loadOnce()</code> and pass in the URL  of the script you want to load (or an array of URLs if you need to load  multiple scripts). You can also specify a callback function that will  be executed when the scripts are finished loading.</p>\n<p>The only difference between <code>LazyLoad.load()</code> and <code>LazyLoad.loadOnce()</code> is that <code>loadOnce</code></p>", "pl_codigo"=>"5"}, "authenticity_token"=>"k66Ezyot6X5W5aApFhdAxlaCaZktX3yXYSAPIA5GQYs="}
+  [4;36;1mTbPlantilla Load (0.1ms)[0m   [0;1mSELECT "tb_plantillas".id_plantilla FROM "tb_plantillas" WHERE ("tb_plantillas"."pl_codigo" = '5') LIMIT 1[0m
+  [4;35;1mTbPlantilla Create (0.3ms)[0m   [0mINSERT INTO "tb_plantillas" ("pl_descripcion", "pl_plantilla", "pl_codigo", "pl_habilitado") VALUES('wwwwwwwwwwwwwww', '<p><strong> <a href="http://wonko.com/"> wonko.com </a> </strong></p>
+<ul>
+<li><a href="http://wonko.com/">Home</a></li>
+<li><a href="http://wonko.com/page/about">About</a></li>
+<li><a href="http://wonko.com/archive/2">Archives</a></li>
+<li><a href="http://wonko.com/comment/">Comments</a></li>
+</ul>
+<p>Username: Password:</p>
+<p><strong> <a href="http://wonko.com/post/painless_javascript_lazy_loading_with_lazyload" title="Permalink for this post"> Painless JavaScript lazy loading with LazyLoad </a> </strong></p>
+<p><a href="mailto:ryan@wonko.com">Ryan Grove</a> Tuesday May 29, 2007 @ 11:09 PM (PDT)</p>
+<p>With all the fancy JavaScript libraries to choose from these days, it can be hard to keep your website&rsquo;s page weight down. Even if you&rsquo;re using a small, sleek library like <a href="http://developer.yahoo.com/yui/">YUI</a> or <a href="http://mootools.net/">MooTools</a>, there are often times when it would be nice to be able to load certain scripts only when they&rsquo;re needed.</p>
+<p>For example, if you load a bunch of fancy animation libraries to do something spiffy when the user clicks a button, but then the user does something else instead of clicking the button, then you&rsquo;ve wasted precious time loading scripts you didn&rsquo;t even need.</p>
+<p>Lazy loading is when you wait to load something until you actually need it. It&rsquo;s not a new concept, and the techniques for implementing lazy loading in JavaScript have been around for a while, but it can be a real pain in the ass to roll your own lazy loading solution, especially if you want it to be compatible with all the major browsers.</p>
+<p>Luckily, I&rsquo;ve done the hard work for you. All you need to do is include LazyLoad in any web page like so:</p>
+<pre>&lt;script src="http://cdn.wonko.com/lazyload/1.0.4/lazyload-min.js"&gt;&lt;/script&gt;</pre>
+<p>Then, when you need to load a script, call <code>LazyLoad.load()</code> or <code>LazyLoad.loadOnce()</code> and pass in the URL of the script you want to load (or an array of URLs if you need to load multiple scripts). You can also specify a callback function that will be executed when the scripts are finished loading.</p>
+<p>The only difference between <code>LazyLoad.load()</code> and <code>LazyLoad.loadOnce()</code> is that <code>loadOnce</code></p>', '5', NULL)[0m
+Rendering tb_plantillas/create
+Completed in 36ms (View: 1, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#index (for 192.168.3.1 at 2010-02-28 13:53:04) [GET]
+  [4;36;1mTbPlantilla Load (1.0ms)[0m   [0;1mSELECT * FROM "tb_plantillas" LIMIT 10 OFFSET 0[0m
+Rendering template within layouts/application
+Rendering tb_plantillas/index
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "tb_plantillas" [0m
+Completed in 44ms (View: 36, DB: 1) | 200 OK [http://192.168.3.128/tb_plantillas]
+
+
+Processing TbPlantillasController#edit (for 192.168.3.1 at 2010-02-28 13:53:06) [GET]
+  Parameters: {"id"=>"12"}
+  [4;36;1mTbPlantilla Load (0.3ms)[0m   [0;1mSELECT * FROM "tb_plantillas" WHERE ("tb_plantillas"."id_plantilla" = 12) [0m
+Rendering template within layouts/application
+Rendering tb_plantillas/edit
+Rendered tb_plantillas/_tb_plantilla (5.7ms)
+Completed in 31ms (View: 23, DB: 0) | 200 OK [http://192.168.3.128/tb_plantillas/12/edit]
+
+
+Processing Tinymce::HammerController#combine (for 192.168.3.1 at 2010-02-28 13:53:06) [GET]
+Completed in 4ms (View: 0, DB: 0) | 200 OK [http://192.168.3.128/javascripts/tinymce_hammer.js]
